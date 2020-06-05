@@ -7,6 +7,6 @@ unit you are more comfortable working with.
 """
 
 width = int(input("Insert room's width: "))
-length = int(input("Insert room's width: "))
+length = int(input("Insert room's length: "))
 area = width * length
 print(f"Room's area is {area} m^2")
