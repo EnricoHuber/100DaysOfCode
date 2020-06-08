@@ -12,4 +12,4 @@ meal_cost = int(input("Insert the cost of meal: "))
 tip = (18 * meal_cost / 100)
 tax = 15/100
 total_cost = meal_cost + (meal_cost * tax) + tip
-print(f"Tax: {meal_cost * tax}, tip: {tip}, total cost: {total_cost}")
+print(f"Tax: {meal_cost * tax:.2f}, tip: {tip:.2f}, total cost: {total_cost:.2f}")
